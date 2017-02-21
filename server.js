@@ -42,10 +42,9 @@ app.get('/', (req, res) => {
   });
 });
 
-app.get('/product', (req, res) => {
-  res.render('product.hbs', {
-    pageTitle: 'product Page',
-    welcomeMessage: 'portfolio page',
+app.get('/projects', (req, res) => {
+  res.render('projects.hbs', {
+    pageTitle: 'Projects'
   });
 });
 
